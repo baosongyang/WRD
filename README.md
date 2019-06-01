@@ -7,4 +7,4 @@ The main purpose is to study how well the word order information learned by diff
 
 ## Citation
 Please cite the following paper:
-Baosong Yang, Longyue Wang, Derek F. Wong, Lidia S. Chao and Zhaopeng Tu. 2019. Assessing the Abilites of Self-Attention Networks to Learn Word Order. In ACL 2019.
+> Baosong Yang, Longyue Wang, Derek F. Wong, Lidia S. Chao and Zhaopeng Tu. 2019. Assessing the Abilites of Self-Attention Networks to Learn Word Order. In ACL 2019.
