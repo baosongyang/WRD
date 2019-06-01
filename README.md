@@ -8,10 +8,10 @@ The main purpose is to study how well the word order information learned by diff
 ## Citation
 Please cite the following paper:
 ```
-@InProceedings{yang2019assessing,
-  author    = {Baosong, Yang  and  Longyue, Wang  and  Derek F., Wong  and Lidia S., Chao and Zhaopeng, Tu},
+@inproceedings{yang2019assessing,
+  author    = {Baosong Yang  and  Longyue Wang  and  Derek F. Wong  and Lidia S. Chao and Zhaopeng Tu},
   title     = {Assessing the Abilites of Self-Attention Networks to Learn Word Order.},
-  booktitle = {ACL 2019},
+  booktitle = {ACL},
   year      = {2019}
 }
 ```
