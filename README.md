@@ -17,4 +17,5 @@ Please cite the following paper:
 ```
 
 ## Usage
+* This program is based on [THUMT-MT](https://github.com/THUNLP-MT/THUMT). We add options for running RNN- and DiSAN-based models which are named "rnnp" and "transformer_di", respectively. To run machine translation models, you may read the documentation of the original implementation.  
 
