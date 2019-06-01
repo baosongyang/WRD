@@ -1,5 +1,5 @@
 # Word Reordering Detection
-This word reordering detection task is based on the following paper:
+This word reordering detection task (**WRD**) is based on the following paper:
 * Assessing the Abilites of Self-Attention Networks to Learn Word Order. [Baosong Yang](https://baosongyang.site/), [Longyue Wang](http://www.longyuewang.com/), [Derek F. Wong](https://www.fst.um.edu.mo/en/staff/fstfw.html), Lidia S. Chao and [Zhaopeng Tu](http://zptu.net/). In ACL 2019.
 
 ## Introduction
@@ -18,4 +18,4 @@ Please cite the following paper:
 
 ## Usage
 * This program is based on [THUMT-MT](https://github.com/THUNLP-MT/THUMT). We add options for running RNN- and DiSAN-based models which are named "**rnnp**" and "**transformer_di**", respectively. To run machine translation models, you may read the documentation of the original implementation.  
-
+* To examine pre-trained MT encoders on WRD task: 1. put your model checkpoint files under the "eval" folder; 2. we provide an example script "word_order_MT.sh" to assess the ability of SAN to learn word order, you can evaluate other models by modifying the example script. 
