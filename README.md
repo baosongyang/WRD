@@ -15,7 +15,10 @@ Please cite the following paper:
   year      = {2019}
 }
 ```
+## Data
+We conduct this task on the English sentences, which are extracted from the WMT14 En⇒De data with maximum length to 80. For each sentence in different sets (i.e. training,  validation,  and test sets), we construct an instance by randomly moving a word to another position. Finally we construct 7M, 10Kand 10K samples for training, validating and testing, respectively. Note that a sentence can be sampled multiple times, thus each dataset in the WRD data contains more instances than in the machine translation data.
 
+For other languages, we provide scripts for generating such kind of corpus "./script/reorder_word.py" and recover it to the original format "./script/recover_order.py".
 ## Usage
 * This program is based on [THUMT-MT](https://github.com/THUNLP-MT/THUMT). We add options for running RNN- and DiSAN-based models which are named "**rnnp**" and "**transformer_di**", respectively. To run machine translation models, you may read the documentation of the original implementation.  
 * To examine pre-trained MT encoders on WRD task: 1. put your model checkpoint files under the "eval" folder; 2. we provide an example script "word_order_MT.sh" to assess the ability of SAN to learn word order, you can evaluate other models by modifying the example script.
@@ -23,4 +26,4 @@ Please cite the following paper:
 ```
 Line 48: "encoder" => "encoder2"
 ```
-
+* To assess the models, you can use our scripts released in ./scripts/
