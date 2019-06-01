@@ -26,5 +26,5 @@ For other languages, we provide scripts for generating such kind of corpus "./sc
 ```
 Line 48: "encoder" => "encoder2"
 ```
-* **To assess the models**, you can use our scripts released in ./scripts/
+* **To assess the accuracy of models**: you can use our scripts released in ./scripts/
 * **Effect of Wrong Word Order Noises**:  we make erroneous word order noises on WMT14 En-De development set by moving one word to another position, and evaluate the drop of the translation quality of each model. The data and script can be found in "./robustness"
