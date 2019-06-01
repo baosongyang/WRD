@@ -10,12 +10,12 @@ Please cite the following paper:
 ```
 @inproceedings{yang2019assessing,
   author    = {Baosong Yang  and  Longyue Wang  and  Derek F. Wong  and Lidia S. Chao and Zhaopeng Tu},
-  title     = {Assessing the Abilites of Self-Attention Networks to Learn Word Order.},
+  title     = {Assessing the Abilites of Self-Attention Networks to Learn Word Order},
   booktitle = {ACL},
   year      = {2019}
 }
 ```
 
 ## Usage
-* This program is based on [THUMT-MT](https://github.com/THUNLP-MT/THUMT). We add options for running RNN- and DiSAN-based models which are named "rnnp" and "transformer_di", respectively. To run machine translation models, you may read the documentation of the original implementation.  
+* This program is based on [THUMT-MT](https://github.com/THUNLP-MT/THUMT). We add options for running RNN- and DiSAN-based models which are named "**rnnp**" and "**transformer_di**", respectively. To run machine translation models, you may read the documentation of the original implementation.  
 
