@@ -1,6 +1,7 @@
 # Word Reordering Detection
 This word reordering detection task (**WRD**) is based on the following paper:
 * [Assessing the Ability of Self-Attention Networks to Learn Word Order.](https://arxiv.org/pdf/1906.00592.pdf)
+
 [Baosong Yang](https://baosongyang.site/), [Longyue Wang](http://www.longyuewang.com/), [Derek F. Wong](https://www.fst.um.edu.mo/en/staff/fstfw.html), Lidia S. Chao and [Zhaopeng Tu](http://zptu.net/). In ACL 2019.
 
 ## Introduction
